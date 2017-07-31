@@ -11,7 +11,7 @@ public class GitHubController {
 
 	@PostMapping("/api/github-activity-url")
 	public void testGitHubCommit(@RequestBody String jsonData){
-		System.out.println("-jsonData-------->"+jsonData.toString());
+		System.out.println("-jsonData--------->"+jsonData.toString());
 	}
 	
 }
